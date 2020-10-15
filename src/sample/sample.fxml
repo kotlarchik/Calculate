@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+   <children>
+      <StackPane prefHeight="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9a57fa87" height="175.0" stroke="#e500ce" strokeType="INSIDE" width="375.0" />
+             <Text fx:id="textWindow" wrappingWidth="358.0"><font><Font size="25" /></font></Text>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="100.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="7">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="8">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="9">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="80.0" prefWidth="80.0" text="/">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="4">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="5">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="6">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="80.0" prefWidth="80.0" text="*">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="1">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="2">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="3">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#pressOperator" prefHeight="80.0" prefWidth="80.0" text="+">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" spacing="10.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#pressClear" prefHeight="80.0" prefWidth="80.0" text="CE">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#pressNum" prefHeight="80.0" prefWidth="80.0" text="0">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#pressOperator" prefHeight="80.0" prefWidth="80.0" text="=">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#pressOperator" prefHeight="80.0" prefWidth="80.0" text="-">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.960185170173645" green="0.20370370149612427" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
